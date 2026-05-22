@@ -31,3 +31,7 @@ Method -> GET - Time -> 1779450695459 - Url -> /api/issues
 Method -> GET - Time -> 1779451269384 - Url -> /api/issues
 
 Method -> POST - Time -> 1779452172086 - Url -> /api/auth/signup
+
+Method -> GET - Time -> 1779460188605 - Url -> /
+
+Method -> GET - Time -> 1779460189015 - Url -> /favicon.ico
