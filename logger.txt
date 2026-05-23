@@ -77,3 +77,11 @@ Method -> GET - Time -> 1779507501421 - Url -> /issues
 Method -> GET - Time -> 1779509647907 - Url -> /issues
 
 Method -> GET - Time -> 1779509651078 - Url -> /
+
+Method -> GET - Time -> 1779535308264 - Url -> /
+
+Method -> GET - Time -> 1779535308323 - Url -> /favicon.ico
+
+Method -> GET - Time -> 1779535740921 - Url -> /api/issues
+
+Method -> GET - Time -> 1779535754497 - Url -> /
