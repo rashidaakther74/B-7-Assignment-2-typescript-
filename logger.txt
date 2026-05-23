@@ -53,3 +53,13 @@ Method -> GET - Time -> 1779473143530 - Url -> /api/issues
 Method -> GET - Time -> 1779506713467 - Url -> /
 
 Method -> GET - Time -> 1779506713548 - Url -> /favicon.ico
+
+Method -> GET - Time -> 1779507065435 - Url -> /
+
+Method -> GET - Time -> 1779507069259 - Url -> /
+
+Method -> GET - Time -> 1779507069958 - Url -> /
+
+Method -> GET - Time -> 1779507101712 - Url -> /
+
+Method -> GET - Time -> 1779507106701 - Url -> /

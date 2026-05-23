@@ -13,7 +13,10 @@ app.use("/api/auth", authRoutes);
 app.use("/api/issues", issueRoute);
 
 app.get("/", (req, res) => {
-  res.send("Hello world!!");
+  res.json({
+    success: true,
+    message: "Assignment 2 API is running"
+  });
 });
 
 export default app;
