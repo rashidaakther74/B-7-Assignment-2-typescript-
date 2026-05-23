@@ -85,3 +85,163 @@ Method -> GET - Time -> 1779535308323 - Url -> /favicon.ico
 Method -> GET - Time -> 1779535740921 - Url -> /api/issues
 
 Method -> GET - Time -> 1779535754497 - Url -> /
+
+Method -> GET - Time -> 1779539166014 - Url -> /api/issues
+
+Method -> GET - Time -> 1779539521601 - Url -> /api/issues
+
+Method -> GET - Time -> 1779539802869 - Url -> /api/issues
+
+Method -> POST - Time -> 1779539990309 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779540017793 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779540041653 - Url -> /api/issues
+
+Method -> GET - Time -> 1779540121798 - Url -> /api/issues
+
+Method -> GET - Time -> 1779540795708 - Url -> /api/issues
+
+Method -> POST - Time -> 1779541324443 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779541340731 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779541366949 - Url -> /api/issues
+
+Method -> POST - Time -> 1779541614333 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779543889553 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779543994804 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779544157929 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779544188708 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779544208112 - Url -> /api/issues
+
+Method -> POST - Time -> 1779544271837 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779544292777 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779544327693 - Url -> /api/issues
+
+Method -> GET - Time -> 1779544370062 - Url -> /api/issues
+
+Method -> GET - Time -> 1779544395999 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779544457604 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779544485229 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779544497660 - Url -> /api/issues/1
+
+Method -> POST - Time -> 1779544608062 - Url -> /api/auth/login
+
+Method -> PUT - Time -> 1779545695326 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779546187771 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779546198159 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779546209689 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779546228475 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779546330990 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779546609121 - Url -> /api/issues/2
+
+Method -> POST - Time -> 1779546623464 - Url -> /api/auth/login
+
+Method -> PUT - Time -> 1779546643160 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779546759621 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779546851475 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779547019654 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779547122348 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779547127079 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779547134502 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779547434316 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779547441398 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779549541150 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779549894186 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779549904943 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779551314943 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779551559520 - Url -> /api/issues/1
+
+Method -> GET - Time -> 1779551888811 - Url -> /
+
+Method -> GET - Time -> 1779551888863 - Url -> /favicon.ico
+
+Method -> PUT - Time -> 1779551894244 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779551906794 - Url -> /api/issues/2
+
+Method -> POST - Time -> 1779552219878 - Url -> /api/auth/login
+
+Method -> PUT - Time -> 1779552232321 - Url -> /api/issues/2
+
+Method -> DELETE - Time -> 1779552304226 - Url -> /api/issues/1
+
+Method -> DELETE - Time -> 1779552311201 - Url -> /api/issues/2
+
+Method -> DELETE - Time -> 1779552349670 - Url -> /api/issues/1
+
+Method -> DELETE - Time -> 1779552371446 - Url -> /api/issues/2
+
+Method -> DELETE - Time -> 1779552393630 - Url -> /api/issues/2
+
+Method -> DELETE - Time -> 1779552400975 - Url -> /api/issues/1
+
+Method -> DELETE - Time -> 1779552823681 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779556354572 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779556442247 - Url -> /api/issues/2
+
+Method -> GET - Time -> 1779556464521 - Url -> /api/issues
+
+Method -> POST - Time -> 1779556554778 - Url -> /api/auth/login
+
+Method -> PUT - Time -> 1779556656181 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779556658494 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779556743186 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779556806670 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779556831833 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779556863143 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779556872319 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779557437412 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779557444440 - Url -> /api/issues/2
+
+Method -> POST - Time -> 1779557832871 - Url -> /api/issues
+
+Method -> GET - Time -> 1779557843760 - Url -> /api/issues
+
+Method -> PUT - Time -> 1779557863028 - Url -> /api/issues/3
+
+Method -> DELETE - Time -> 1779557899346 - Url -> /api/issues/3
+
+Method -> DELETE - Time -> 1779557948781 - Url -> /api/issues/3
+
+Method -> DELETE - Time -> 1779557951247 - Url -> /api/issues/3

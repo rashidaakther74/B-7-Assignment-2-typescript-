@@ -14,11 +14,13 @@ export const auth = (req: Request, res: Response, next: NextFunction) => {
 
   try {
     const decoded = jwt.verify(token, config.secretKey as string);
-
+    //  console.log(decoded)
     (req as any).user = decoded;
 
+
     next();
-  } catch {
+  } catch(error) {
+    console.log(error)
     return res.status(401).json({
       success: false,
       message: "Invalid token",
