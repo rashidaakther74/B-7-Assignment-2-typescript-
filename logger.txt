@@ -63,3 +63,13 @@ Method -> GET - Time -> 1779507069958 - Url -> /
 Method -> GET - Time -> 1779507101712 - Url -> /
 
 Method -> GET - Time -> 1779507106701 - Url -> /
+
+Method -> GET - Time -> 1779507331378 - Url -> /users
+
+Method -> GET - Time -> 1779507361687 - Url -> /issues
+
+Method -> GET - Time -> 1779507406132 - Url -> /issues
+
+Method -> GET - Time -> 1779507472710 - Url -> /api/issues
+
+Method -> GET - Time -> 1779507501421 - Url -> /issues
