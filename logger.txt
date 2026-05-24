@@ -365,3 +365,5 @@ Method -> DELETE - Time -> 1779635192428 - Url -> /api/issues/5
 Method -> POST - Time -> 1779635212604 - Url -> /api/auth/login
 
 Method -> DELETE - Time -> 1779635229855 - Url -> /api/issues/5
+
+Method -> GET - Time -> 1779636519603 - Url -> /
