@@ -1,5 +1,5 @@
 import express from "express";
-import { auth, roleCheck } from "../auth/auth";
+import { auth, roleCheck } from "../../middleware/auth";
 import { userController } from "./issues.controller";
 
 

@@ -2,7 +2,7 @@ import express from "express";
 
 import { authRoutes } from "./modules/auth/auth.route";
 import { issueRoute } from "./modules/issues/issues.route";
-import logger from "./middleware/logger";
+import logger from "../logger";
 
 const app = express();
 
