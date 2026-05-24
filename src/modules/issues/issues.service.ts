@@ -127,19 +127,26 @@ const getSingleIssueIntoDB = async (id: string) => {
 };
 
 const updateIssueIntoDB = async (
-  id: string,
   payload: any,
+  id: string,
   userId: number,
   role: string
 ) => {
+  const { title, description, type } = payload;
+
   const issueRes = await pool.query(
-    `SELECT * FROM issues WHERE id=$1`,
+    `
+    SELECT * FROM issues
+    WHERE id = $1
+    `,
     [id]
   );
 
   const issue = issueRes.rows[0];
 
-  if (!issue) return null;
+  if (!issue) {
+    return null;
+  }
 
   if (
     role === "contributor" &&
@@ -150,25 +157,31 @@ const updateIssueIntoDB = async (
 
   const result = await pool.query(
     `
-    UPDATE issues
-    SET title = COALESCE($1, title),
-        description = COALESCE($2, description),
-        type = COALESCE($3, type),
-        status = COALESCE($4, status),
-        updated_at = CURRENT_TIMESTAMP
-    WHERE id = $5
-    RETURNING *
+    UPDATE issues 
+    SET 
+      title = COALESCE($1, title),
+      description = COALESCE($2, description),
+      type = COALESCE($3, type),
+      updated_at = CURRENT_TIMESTAMP
+      WHERE id = $4
+      RETURNING *
     `,
-    [payload.title, payload.description, payload.type, payload.status, id]
+    [title, description, type, id]
   );
 
-  return result.rows[0];
+  return result;
 };
 
 const deleteIssueFromDB = async (id: string) => {
-  await pool.query(`DELETE FROM issues WHERE id=$1`, [id]);
+  const result = await pool.query(
+    `
+    DELETE FROM issues
+    WHERE id = $1
+    `,
+    [id]
+  );
 
-  return true;
+  return result;
 };
 
 export const issueService = {

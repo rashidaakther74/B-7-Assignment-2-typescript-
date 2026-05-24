@@ -67,23 +67,23 @@ const updateIssue = async (req: Request, res: Response) => {
     const user = (req as any).user;
 
     const result = await issueService.updateIssueIntoDB(
-      req.params.id as string,
       req.body,
+      req.params.id as string,
       user.id,
       user.role
     );
 
-    if (!result) {
+    if (!result || result.rows.length === 0) {
       return res.status(403).json({
         success: false,
         message: "You are not allowed to update this issue",
       });
     }
 
-    res.json({
+    res.status(200).json({
       success: true,
       message: "Issue updated successfully",
-      data: result,
+      data: result.rows[0],
     });
   } catch (error: any) {
     res.status(500).json({
@@ -95,9 +95,18 @@ const updateIssue = async (req: Request, res: Response) => {
 
 const deleteIssue = async (req: Request, res: Response) => {
   try {
-    await issueService.deleteIssueFromDB(req.params.id as string);
+    const result = await issueService.deleteIssueFromDB(
+      req.params.id as string
+    );
 
-    res.json({
+    if (result.rowCount === 0) {
+      return res.status(404).json({
+        success: false,
+        message: "Issue not found",
+      });
+    }
+
+    res.status(200).json({
       success: true,
       message: "Issue deleted successfully",
     });

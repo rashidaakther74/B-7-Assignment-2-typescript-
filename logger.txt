@@ -245,3 +245,123 @@ Method -> DELETE - Time -> 1779557899346 - Url -> /api/issues/3
 Method -> DELETE - Time -> 1779557948781 - Url -> /api/issues/3
 
 Method -> DELETE - Time -> 1779557951247 - Url -> /api/issues/3
+
+Method -> GET - Time -> 1779632045873 - Url -> /favicon.ico
+
+Method -> GET - Time -> 1779632191649 - Url -> /api/issues
+
+Method -> GET - Time -> 1779632351472 - Url -> /api/issues
+
+Method -> POST - Time -> 1779632439605 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779632496172 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779632521895 - Url -> /api/issues
+
+Method -> POST - Time -> 1779632554019 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779632594234 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779632648208 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779632658101 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779632674096 - Url -> /api/issues
+
+Method -> POST - Time -> 1779632692824 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779632706970 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779632730169 - Url -> /api/issues
+
+Method -> POST - Time -> 1779632749941 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779632768321 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779632788223 - Url -> /api/issues
+
+Method -> POST - Time -> 1779632809474 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779632826407 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779632846675 - Url -> /api/issues
+
+Method -> GET - Time -> 1779632865413 - Url -> /api/issues
+
+Method -> POST - Time -> 1779632900280 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779632915210 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779632941456 - Url -> /api/issues
+
+Method -> POST - Time -> 1779632948559 - Url -> /api/issues
+
+Method -> GET - Time -> 1779632956112 - Url -> /api/issues
+
+Method -> GET - Time -> 1779632965646 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779633032092 - Url -> /api/issues/2
+
+Method -> POST - Time -> 1779633051571 - Url -> /api/auth/login
+
+Method -> PUT - Time -> 1779633084368 - Url -> /api/issues/2
+
+Method -> DELETE - Time -> 1779633123922 - Url -> /api/issues/5
+
+Method -> POST - Time -> 1779633147777 - Url -> /api/auth/login
+
+Method -> DELETE - Time -> 1779633171341 - Url -> /api/issues/5
+
+Method -> POST - Time -> 1779633183333 - Url -> /api/auth/login
+
+Method -> DELETE - Time -> 1779633201861 - Url -> /api/issues/5
+
+Method -> GET - Time -> 1779633562468 - Url -> /api/issues
+
+Method -> PUT - Time -> 1779633660847 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779634208333 - Url -> /api/issues/1
+
+Method -> POST - Time -> 1779634313078 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779634328727 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779634347678 - Url -> /api/issues
+
+Method -> GET - Time -> 1779634355161 - Url -> /api/issues
+
+Method -> POST - Time -> 1779634421851 - Url -> /api/auth/signup
+
+Method -> POST - Time -> 1779634435343 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779634458723 - Url -> /api/issues
+
+Method -> GET - Time -> 1779634467166 - Url -> /api/issues
+
+Method -> PUT - Time -> 1779634485451 - Url -> /api/issues/1
+
+Method -> PUT - Time -> 1779634637057 - Url -> /api/issues/2
+
+Method -> POST - Time -> 1779634660260 - Url -> /api/auth/login
+
+Method -> PUT - Time -> 1779634761944 - Url -> /api/issues/2
+
+Method -> POST - Time -> 1779634785950 - Url -> /api/auth/login
+
+Method -> POST - Time -> 1779634809314 - Url -> /api/auth/login
+
+Method -> PUT - Time -> 1779634836827 - Url -> /api/issues/2
+
+Method -> PUT - Time -> 1779634864288 - Url -> /api/issues/1
+
+Method -> GET - Time -> 1779634932095 - Url -> /api/issues/1
+
+Method -> DELETE - Time -> 1779635149757 - Url -> /api/issues/5
+
+Method -> POST - Time -> 1779635173771 - Url -> /api/auth/login
+
+Method -> DELETE - Time -> 1779635192428 - Url -> /api/issues/5
+
+Method -> POST - Time -> 1779635212604 - Url -> /api/auth/login
+
+Method -> DELETE - Time -> 1779635229855 - Url -> /api/issues/5

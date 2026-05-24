@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import type { Request, Response, NextFunction } from "express";
-import config from "../config";
+import config from "../../config";
 
 export const auth = (req: Request, res: Response, next: NextFunction) => {
   const token = req.headers.authorization;
@@ -19,11 +19,25 @@ export const auth = (req: Request, res: Response, next: NextFunction) => {
 
 
     next();
-  } catch(error) {
+  } catch (error) {
     console.log(error)
     return res.status(401).json({
       success: false,
       message: "Invalid token",
     });
   }
+};
+export const roleCheck = (...roles: string[]) => {
+  return (req: Request, res: Response, next: NextFunction) => {
+    const user = (req as any).user;
+
+    if (!roles.includes(user.role)) {
+      return res.status(403).json({
+        success: false,
+        message: "Forbidden",
+      });
+    }
+
+    next();
+  };
 };
